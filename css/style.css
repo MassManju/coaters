@@ -1,0 +1,441 @@
+body{
+    margin: 0px;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+/* Topbar */
+#topbar{
+    background-color: #686e75;
+    overflow: auto;
+}
+#name{
+    float: left;
+    color: white;
+}
+#fontawesome{
+    float: right;
+    padding-top: 10px;
+}
+#fontawesome i{
+    padding: 5px;
+}
+#fontawesome a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Logo */
+.logoimg{
+    height: 60px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+/* Menu bar */
+#manu-bar{
+    background-color: #e71f1f;
+    margin-top: -10px
+}
+#manu-bar ul{
+    padding: 0px;
+}
+#manu-bar li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 3px;
+}
+a{
+    font-family: sans-serif;
+}
+
+/* Slide */
+#slide{
+    height: 600px;
+    width: 100%;
+    animation-name: background;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    box-sizing: border-box;
+    margin-top: -27px;
+}
+@keyframes background{
+    0%{
+        background-image: url(../images/outer.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+    }
+    20%{
+        background-image: url(../images/inner.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+    }
+    40%{
+        background-image: url(../images/machine.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+    }
+    60%{
+        background-image: url(../images/room.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+    }
+    80%{
+        background-image: url(../images/weight.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+    }
+    100%{
+        background-image: url(../images/meter.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+    }
+}
+.text{
+    text-align: center;
+    color: rgb(252, 249, 249);
+}
+#ptext{
+    font-size: 25px;
+    font-weight: 700;
+}
+#htext{
+    font-size: 40px;
+    padding-top: 200px;
+    font-weight: 900;
+}
+
+/* Extra section */
+#extra{
+    background-color: #686e75;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* Coating section */
+#bac{
+    background-color: #494d52;
+    overflow: auto;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#cbox{
+    width: 18%;
+    float: left;
+}
+#box{
+    width: 18%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+#rim{
+    width: 18%;
+    float: left;
+}
+#rod{
+    width: 18%;
+    float: left;
+}
+#bac figure figcaption{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+#bac h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Aboutus section */
+footer{
+    margin-top: 80px;
+}
+#aboutus{
+    overflow: auto;
+    background-color: rgb(14, 13, 13);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#h3p{
+    float: left;
+    width: 60%;
+}
+video{
+    height: 200px;
+    width: 35%;
+    padding-left: 50px;
+    margin-top: 60px; 
+    float: left; 
+}
+
+#aboutus p,h3{
+    color: white;
+    text-align: justify;
+}
+
+/* Contact us section */
+#cont{
+    background-color: rgb(0,0,0);
+    overflow: auto;
+}
+#map iframe{
+    float: left;
+    height: 300px;
+    width: 35%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+#info{
+    float: left;
+    width: 40%;
+    padding-top: 55px;
+    padding-left: 50px;
+}
+
+#details h3{
+    color: rgb(110, 107, 107);
+    font-size: 20px;
+}
+
+#details address{
+    color: rgb(163, 159, 159);
+    font-size: 14px;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(163, 159, 159);
+    font-size: 14px;
+}
+
+#contact a{
+    text-decoration: none;
+    color: rgb(163, 159, 159);
+    font-size: 14px;
+}
+
+/* Footer links */
+#foot-manu-bar{
+    float: left;
+    margin-top: 60px;
+    
+}
+#foot-manu-bar ul{
+    padding: 0px;
+    
+}
+#foot-manu-bar li{
+    list-style-type: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#foot-manu-bar a{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* Media query */
+@media screen and (max-width: 1024px){
+
+    /* Coating section */
+    #bac{
+        text-align: center;
+    }
+    #cbox{
+        width: 30%;  
+        
+    }
+    #box{
+        width: 30%;
+        padding-left: 30px;
+    }
+    #rim{
+        width: 30%;
+    }
+    #rod{
+        width: 10%;
+    }
+    #bac h3{
+        font-size: 30px;
+    }
+    #bac figure{
+        padding-left: 60px;
+    }
+
+    /* About section */
+
+    #h3p{
+        float: left;
+        width: 55%;
+    }
+
+    /* Footer */
+    #foot-manu-bar{
+        float: left;
+        margin-top: 60px;
+        width: 10%;
+        padding: 0;
+        padding-left: 50px; 
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* coating section */
+    #bac figure{
+        padding-left: 35px;
+    }
+
+    /* Footer */
+    #foot-manu-bar{
+        float: left;
+        margin-top: 60px;
+        width: 12%;
+        padding: 0;
+        padding-left: 50px; 
+    }
+
+    #info{
+        float: left;
+        width: 30%;
+        padding-top: 55px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    /* menu bar */
+    #manu-bar li{
+        padding-right: 8px;
+        padding-left: 0px;
+    }
+
+    /* Slide */
+    @keyframes background{
+        0%{
+            background-image: url(../images/outer.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 350px;
+        }
+        20%{
+            background-image: url(../images/inner.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 350px;
+        }
+        40%{
+            background-image: url(../images/machine.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 350px;
+        }
+        60%{
+            background-image: url(../images/room.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 350px;
+        }
+        80%{
+            background-image: url(../images/weight.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 350px;
+        }
+        100%{
+            background-image: url(../images/meter.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 350px;
+        }
+    }
+    .text{
+        text-align: center;
+        color: rgb(252, 249, 249);
+    }
+    #ptext{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #htext{
+        font-size: 30px;
+        padding-top: 120px;
+        font-weight: 600;
+    }
+
+    /* coating section */
+    #cbox{
+        width: 100%;
+        float: left;
+        margin-left: -30px;
+        padding-left: 0;
+    }
+    #box{
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+        margin-left: -10px;
+        box-sizing: border-box;
+    }
+    #rim{
+        width: 100%;
+        float: left;
+        margin-left: -35px;
+    }
+    #rod{
+        width: 100%;
+        float: left;
+        margin-left: -35px;
+    }
+
+    /* About us */
+    #h3p{
+        float: left;
+        width: 100%;
+    }
+    video{
+        height: 200px;
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px; 
+        float: left; 
+    }
+    #h3p h3{
+        text-align: center;
+    }
+
+    /* Map */
+    #map iframe{
+        height: 300px;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+    #foot-manu-bar{
+        float: left;
+        margin-top: 32px;
+        width: 21%;
+        padding-left: 0px; 
+        box-sizing: border-box;
+    }
+    #info{
+        width: 60%;
+        float: left;
+    }
+}
